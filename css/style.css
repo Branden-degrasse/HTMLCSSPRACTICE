@@ -52,9 +52,13 @@ nav ul {
 }
 
 .logo{
-	background-image: url(../imgs/384190_20170515164731_1.png);
+	/*background-image: url(../imgs/384190_20170515164731_1.png);*/
 	width: 40px;
 	height: 40px;
-	background-size: 100%;
+	/*background-size: 100%;*/
 	background-repeat: no-repeat;
+}
+
+.logo img:not(:first-child){
+	display:none;
 }
