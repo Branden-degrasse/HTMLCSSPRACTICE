@@ -8,6 +8,22 @@ body,html{
 	font-family: 'Yusei Magic';
 }
 
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid blue;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: blue;
+  color: white;
+}
+
+
 img{
 	max-width: 100%;
 }
@@ -52,13 +68,23 @@ nav ul {
 }
 
 .logo{
-	/*background-image: url(../imgs/384190_20170515164731_1.png);*/
 	width: 40px;
 	height: 40px;
-	/*background-size: 100%;*/
 	background-repeat: no-repeat;
 }
 
 .logo img:not(:first-child){
 	display:none;
+}
+
+.joke{
+	font-size: 2vh;
+	color: black;
+  	border: 2px solid black;
+  	padding: 1vh;
+}
+
+.joke:hover{
+	background-color: #E8E8E8;
+	cursor: url(../imgs/LuigiSelect.cur), auto;
 }
